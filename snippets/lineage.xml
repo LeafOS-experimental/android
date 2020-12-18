@@ -23,6 +23,7 @@
   <project path="packages/apps/Glimpse"  name="LineageOS/android_packages_apps_Glimpse" remote="lineage" />
   <remove-project path="packages/apps/Messaging"/>
   <project path="packages/apps/Messaging"  name="LineageOS/android_packages_apps_Messaging" remote="lineage" />
+  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
   <remove-project path="packages/inputmethods/LatinIME"/>
   <project path="packages/inputmethods/LatinIME"  name="LineageOS/android_packages_inputmethods_LatinIME" remote="lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
