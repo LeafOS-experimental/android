@@ -18,6 +18,7 @@
   <project path="packages/apps/DeskClock"  name="LineageOS/android_packages_apps_DeskClock" remote="lineage" />
   <remove-project path="packages/apps/Dialer"/>
   <project path="packages/apps/Dialer"  name="LineageOS/android_packages_apps_Dialer" remote="lineage" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <remove-project path="packages/apps/Gallery2"/>
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="lineage" />
   <project path="packages/apps/Glimpse"  name="LineageOS/android_packages_apps_Glimpse" remote="lineage" />
