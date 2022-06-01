@@ -15,6 +15,7 @@
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" remote="leaf" />
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" remote="leaf" revision="refs/heads/master" />
   <project path="packages/apps/LeafBackgrounds" name="LeafOS-Project/android_packages_apps_LeafBackgrounds" remote="leaf" />
+  <project path="packages/overlays/Leaf" name="LeafOS-Project/android_packages_overlays_Leaf" remote="leaf" revision="leaf-4.0" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-15.0.0_r0.49" />
   <project path="vendor/leaf" name="LeafOS-experimental/android_vendor_leaf" remote="leaf-staging">
     <linkfile src="config" dest="vendor/lineage/config" />
