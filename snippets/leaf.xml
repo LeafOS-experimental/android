@@ -49,6 +49,8 @@
   <project path="packages/apps/Updater" name="LeafOS-Project/android_packages_apps_Updater" groups="lineage" />
   <project path="packages/overlays/Leaf" name="LeafOS-experimental/android_packages_overlays_Leaf" revision="leaf-4.0" />
   <project path="packages/resources/devicesettings" name="LeafOS-Project/android_packages_resources_devicesettings" groups="lineage" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r450784e" name="LeafOS-experimental/android_prebuilts_clang_kernel_linux-x86_clang-r450784e" clone-depth="1" revision="leaf-4.0" />
   <project path="prebuilts/extract-tools" name="LeafOS-Project/android_prebuilts_extract-tools" groups="lineage" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.7" />
   <project path="prebuilts/tools-lineage" name="LeafOS-Project/android_prebuilts_tools-lineage" groups="lineage" />
