@@ -32,7 +32,7 @@
   <project path="external/leaf-fonts" name="LeafOS-Blobs/proprietary_external_leaf-fonts" />
   <project path="external/leaf-prebuilts" name="LeafOS-Project/android_external_leaf-prebuilts" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="hardware/lineage/interfaces" name="LeafOS-Project/android_hardware_lineage_interfaces" groups="lineage" />
+  <project path="hardware/lineage/interfaces" name="LeafOS-experimental/android_hardware_lineage_interfaces" groups="lineage" />
   <project path="leaf/build" name="LeafOS-Project/leaf_build" revision="refs/heads/master" />
   <project path="leaf/devices" name="LeafOS-Project/leaf_devices" />
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" revision="refs/heads/master" />
@@ -66,7 +66,7 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
   <remove-project name="platform/build" />
-  <project path="build/make" name="LeafOS-Project/android_build" groups="pdk">
+  <project path="build/make" name="LeafOS-experimental/android_build" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -88,15 +88,15 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="LeafOS-Project/android_external_wpa_supplicant_8" groups="pdk" />
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="LeafOS-Project/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="LeafOS-experimental/android_frameworks_av" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="LeafOS-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="LeafOS-experimental/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/libs/net" />
   <project path="frameworks/libs/net" name="LeafOS-Project/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="LeafOS-Project/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="LeafOS-experimental/android_frameworks_native" groups="pdk" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="LeafOS-Project/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="LeafOS-experimental/android_hardware_libhardware" groups="pdk" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LeafOS-Project/android_packages_apps_Contacts" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -108,11 +108,11 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="LeafOS-Project/android_packages_apps_Gallery2" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="LeafOS-Project/android_packages_apps_Launcher3" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="LeafOS-experimental/android_packages_apps_Launcher3" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="LeafOS-Project/android_packages_apps_Messaging" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="LeafOS-Project/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="LeafOS-experimental/android_packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="LeafOS-Project/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Stk" />
@@ -124,11 +124,11 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="LeafOS-Project/android_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/modules/Bluetooth" />
-  <project path="packages/modules/Bluetooth" name="LeafOS-Project/android_packages_modules_Bluetooth" groups="pdk" />
+  <project path="packages/modules/Bluetooth" name="LeafOS-experimental/android_packages_modules_Bluetooth" groups="pdk" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
+  <project path="system/core" name="LeafOS-experimental/android_system_core" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
