@@ -64,7 +64,7 @@
 
   <!-- LeafOS forked repos -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="LeafOS-experimental/android_bootable_recovery" groups="pdk" />
   <remove-project name="platform/build" />
   <project path="build/make" name="LeafOS-Project/android_build" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
