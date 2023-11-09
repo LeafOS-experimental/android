@@ -24,7 +24,7 @@
            sync-j="4" />
 
   <!-- LeafOS additions -->
-  <project path="android" name="LeafOS-Project/android" />
+  <project path="android" name="LeafOS-experimental/android" />
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" />
   <project path="device/lineage/sepolicy" name="LeafOS-Project/android_device_lineage_sepolicy" groups="lineage" />
   <project path="external/chromium" name="LeafOS-experimental/android_external_chromium" />
