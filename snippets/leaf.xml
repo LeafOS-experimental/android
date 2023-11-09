@@ -32,7 +32,7 @@
   <project path="external/leaf-fonts" name="LeafOS-Blobs/proprietary_external_leaf-fonts" />
   <project path="external/leaf-prebuilts" name="LeafOS-Project/android_external_leaf-prebuilts" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="hardware/lineage/interfaces" name="LeafOS-Project/android_hardware_lineage_interfaces" groups="lineage" />
+  <project path="hardware/lineage/interfaces" name="LeafOS-experimental/android_hardware_lineage_interfaces" groups="lineage" />
   <project path="leaf/build" name="LeafOS-Project/leaf_build" revision="refs/heads/master" />
   <project path="leaf/devices" name="LeafOS-Project/leaf_devices" />
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" revision="refs/heads/master" />
