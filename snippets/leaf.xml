@@ -81,6 +81,8 @@
   </project>
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" />
+  <remove-project name="platform/external/libxml2" />
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,lineage" remote="lineage" />
   <remove-project name="platform/external/setupcompat" />
   <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
   <remove-project name="platform/external/tinycompress" />
@@ -135,6 +137,8 @@
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="LeafOS-Project/android_system_tools_mkbootimg" groups="pdk" />
+  <remove-project name="platform/tools/apksig" />
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,lineage" remote="lineage"/>
 
   <!-- LeafOS removed repos -->
   <remove-project name="platform/external/chromium-webview" />
