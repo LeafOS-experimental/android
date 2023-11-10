@@ -143,6 +143,8 @@
   <project path="packages/providers/MediaProvider" name="LeafOS-experimental/android_packages_providers_MediaProvider" groups="pdk" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="LeafOS-experimental/android_packages_services_Telecomm" groups="pdk" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project path="system/ca-certificates" name="LeafOS-experimental/android_system_ca-certificates" groups="pdk" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
