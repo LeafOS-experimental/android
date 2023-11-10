@@ -133,14 +133,20 @@
   <project path="packages/inputmethods/LatinIME" name="LeafOS-Project/android_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="LeafOS-experimental/android_packages_modules_Bluetooth" groups="pdk" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <project path="packages/modules/DnsResolver" name="LeafOS-experimental/android_packages_modules_DnsResolver" groups="pdk" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="LeafOS-experimental/android_packages_modules_Wifi" groups="pdk" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="LeafOS-experimental/android_packages_modules_Connectivity" groups="pdk" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="LeafOS-experimental/android_packages_modules_StatsD" groups="pdk" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk" remote="lineage" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="LeafOS-experimental/android_packages_providers_MediaProvider" groups="pdk" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="LeafOS-experimental/android_packages_providers_TelephonyProvider" groups="pdk" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="LeafOS-experimental/android_packages_services_Telecomm" groups="pdk" />
   <remove-project name="platform/system/ca-certificates" />
