@@ -3,8 +3,8 @@
     <img src="https://i.imgur.com/G0gNZxg.png"/>
 </p>
 <h2 align="center">LeafOS experimental</h2>
-<h2 align="center">This is purely a testing org and includes personal changes</h2>
-<h2 align="center">It might not boot or build, be warned</h2>
+<h3 align="center">This is purely a testing org and includes personal changes</h3>
+<h3 align="center">It might not boot or build, be warned</h3>
 
 Getting started
 ---------------
