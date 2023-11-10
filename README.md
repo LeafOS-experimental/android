@@ -2,15 +2,17 @@
     <a href="https://github.com/LeafOS-Project">
     <img src="https://i.imgur.com/G0gNZxg.png"/>
 </p>
-<h2 align="center">LeafOS</h2>
+<h2 align="center">LeafOS experimental</h2>
+<h2 align="center">This is purely a testing org and includes personal changes</h2>
+<h2 align="center">It might not boot or build, be warned</h2>
 
 Getting started
 ---------------
-To get started with LeafOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with LeafOS experimental, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository, use this command:
 ```
-repo init -u https://github.com/LeafOS-Project/android.git -b leaf-2.0
+repo init -u https://github.com/LeafOS-experimental/android.git -b leaf-2.0
 ```
 Then to sync up:
 ```
