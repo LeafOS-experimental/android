@@ -81,6 +81,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/cts" />
+  <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" />
   <remove-project name="platform/external/libvpx" />
@@ -149,10 +151,14 @@
   <project path="packages/providers/TelephonyProvider" name="LeafOS-experimental/android_packages_providers_TelephonyProvider" groups="pdk" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="LeafOS-experimental/android_packages_services_Telecomm" groups="pdk" />
+  <remove-project name="platform/external/pdfium" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" remote="lineage" />
   <remove-project name="platform/system/ca-certificates" />
   <project path="system/ca-certificates" name="LeafOS-experimental/android_system_ca-certificates" groups="pdk" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="LeafOS-experimental/android_system_netd" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
