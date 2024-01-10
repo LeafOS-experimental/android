@@ -105,8 +105,12 @@
   <project path="frameworks/libs/net" name="LeafOS-Project/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="LeafOS-experimental/android_frameworks_native" groups="pdk" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="LeafOS-experimental/android_hardware_interfaces" groups="pdk" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="LeafOS-experimental/android_hardware_libhardware" groups="pdk" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <remove-project name="platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
   <remove-project name="platform/packages/apps/Contacts" />
