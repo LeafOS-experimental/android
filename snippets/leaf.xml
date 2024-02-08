@@ -75,7 +75,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="LeafOS-Project/android_build_soong" groups="pdk,tradefed">
+  <project path="build/soong" name="LeafOS-experimental/android_build_soong" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
