@@ -149,6 +149,8 @@
   <project path="packages/modules/DnsResolver" name="LeafOS-experimental/android_packages_modules_DnsResolver" groups="pdk" />
   <remove-project name="platform/packages/modules/NeuralNetworks" />
   <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" remote="lineage" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="LeafOS-experimental/android_packages_modules_StatsD" groups="pdk" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -166,7 +168,7 @@
   <remove-project name="platform/system/ca-certificates" />
   <project path="system/ca-certificates" name="LeafOS-experimental/android_system_ca-certificates" groups="pdk" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
+  <project path="system/core" name="LeafOS-experimental/android_system_core" groups="pdk" />
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="LeafOS-experimental/android_system_netd" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
