@@ -116,7 +116,7 @@
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project path="packages/apps/DocumentsUI" name="LeafOS-Project/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="LeafOS-Project/android_packages_apps_Launcher3" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="LeafOS-experimental/android_packages_apps_Launcher3" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="LeafOS-Project/android_packages_apps_Messaging" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/Settings" />
