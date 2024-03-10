@@ -136,7 +136,7 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
+  <project path="system/core" name="LeafOS-experimental/android_system_core" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
