@@ -92,7 +92,7 @@
   <remove-project name="platform/external/setupcompat" />
   <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
   <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="lineage" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="lineage" revision="f9b598c828134f60235b6ec13b3e2cc292d0a64d" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="LeafOS-Project/android_external_tinycompress" groups="pdk" />
   <remove-project name="platform/external/webp" />
