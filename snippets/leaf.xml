@@ -76,10 +76,14 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/cts" />
+  <project path="cts" name="LeafOS-Project/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" />
   <remove-project name="platform/external/libxml2" />
   <project path="external/libxml2" name="LeafOS-Project/android_external_libxml2" groups="pdk,libxml2" />
+  <remove-project name="platform/external/pdfium" />
+  <project path="external/pdfium" name="LeafOS-Project/android_external_pdfium" groups="pdk" />
   <remove-project name="platform/external/setupcompat" />
   <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
   <remove-project name="platform/external/tinycompress" />
@@ -144,6 +148,8 @@
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/ca-certificates" />
   <project path="system/ca-certificates" name="LeafOS-Project/android_system_ca-certificates" groups="pdk" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="LeafOS-Project/android_system_netd" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="LeafOS-Project/android_system_tools_mkbootimg" groups="pdk" />
   <remove-project name="platform/tools/apksig" />
