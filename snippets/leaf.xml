@@ -102,6 +102,8 @@
   <project path="frameworks/native" name="LeafOS-Project/android_frameworks_native" groups="pdk" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="LeafOS-Project/android_hardware_libhardware" groups="pdk" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="LeafOS-Project/android_packages_apps_Camera2" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LeafOS-Project/android_packages_apps_Contacts" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -116,6 +118,8 @@
   <project path="packages/apps/Launcher3" name="LeafOS-Project/android_packages_apps_Launcher3" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="LeafOS-Project/android_packages_apps_Messaging" groups="pdk-fs,lineage" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="LeafOS-Project/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="LeafOS-Project/android_packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
