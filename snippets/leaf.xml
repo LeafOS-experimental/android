@@ -84,6 +84,8 @@
   <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="LeafOS-Project/android_external_tinycompress" groups="pdk" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="LeafOS-Project/android_external_webp" groups="pdk,qcom_msm8x26" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="LeafOS-Project/android_external_wpa_supplicant_8" groups="pdk" />
   <remove-project name="platform/frameworks/av" />
@@ -126,6 +128,10 @@
   <project path="packages/modules/Bluetooth" name="LeafOS-Project/android_packages_modules_Bluetooth" groups="pdk" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <project path="packages/modules/DnsResolver" name="LeafOS-Project/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="LeafOS-Project/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="LeafOS-Project/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -136,6 +142,8 @@
   <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project path="system/ca-certificates" name="LeafOS-Project/android_system_ca-certificates" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="LeafOS-Project/android_system_tools_mkbootimg" groups="pdk" />
   <remove-project name="platform/tools/apksig" />
