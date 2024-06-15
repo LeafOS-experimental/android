@@ -69,6 +69,8 @@
   <!-- LeafOS forked repos -->
   <remove-project name="platform/art" />
   <project path="art" name="LeafOS-Project/android_art" groups="pdk" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="LeafOS-experimental/android_bionic" />
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
   <remove-project name="platform/build" />
