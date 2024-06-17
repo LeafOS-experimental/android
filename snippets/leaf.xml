@@ -126,7 +126,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="LeafOS-Project/android_packages_apps_Messaging" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="LeafOS-Project/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="LeafOS-experimental/android_packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="LeafOS-Project/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <remove-project name="platform/packages/apps/Stk" />
