@@ -72,7 +72,7 @@
   <remove-project name="platform/bionic" />
   <project path="bionic" name="LeafOS-experimental/android_bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="LeafOS-experimental/android_bootable_recovery" groups="pdk" />
   <remove-project name="platform/build" />
   <project path="build/make" name="LeafOS-experimental/android_build" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
