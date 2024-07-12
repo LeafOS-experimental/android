@@ -89,14 +89,10 @@
   </project>
   <remove-project name="platform/external/dtc" />
   <project path="external/dtc" name="LeafOS-Project/android_external_dtc" groups="pdk" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="lineage" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" />
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LeafOS-Project/android_external_libcxx" groups="pdk,lineage" />
-  <remove-project name="platform/external/mksh" />
-  <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
   <remove-project name="platform/external/setupcompat" />
   <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
   <remove-project name="platform/external/tinycompress" />
@@ -147,8 +143,6 @@
   <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="LeafOS-experimental/android_system_core" groups="pdk" />
-  <remove-project name="platform/system/libziparchive" />
-  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" remote="lineage" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="LeafOS-experimental/android_system_sepolicy" groups="pdk" />
   <remove-project name="platform/system/tools/mkbootimg" />
