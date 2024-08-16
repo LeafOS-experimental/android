@@ -121,6 +121,8 @@
   <project path="packages/apps/Dialer" name="LeafOS-Project/android_packages_apps_Dialer" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project path="packages/apps/DocumentsUI" name="LeafOS-Project/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="lineage" groups="lineage" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="LeafOS-experimental/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -152,7 +154,6 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
 
   <!-- LeafOS removed device repos -->
