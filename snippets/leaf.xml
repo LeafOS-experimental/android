@@ -24,7 +24,7 @@
            sync-j="4" />
 
   <!-- LeafOS additions -->
-  <project path="android" name="LeafOS-Project/android" />
+  <project path="android" name="LeafOS-experimental/android" revision="leaf-4.0" />
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" />
   <project path="device/lineage/sepolicy" name="LeafOS-Project/android_device_lineage_sepolicy" groups="lineage" />
   <project path="external/chromium" name="LeafOS-Project/android_external_chromium" />
@@ -38,7 +38,7 @@
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" revision="refs/heads/master" />
   <project path="leaf/www" name="LeafOS-Project/leaf_www" revision="refs/heads/master" />
   <project path="packages/apps/Aperture" name="LeafOS-Project/android_packages_apps_Aperture" groups="lineage" />
-  <project path="packages/apps/Etar" name="LeafOS-Project/android_packages_apps_Etar" groups="lineage" />
+  <project path="packages/apps/Etar" name="LeafOS-Project/android_packages_apps_Etar" groups="lineage" revision="39d6c685d0cc047eb5b56bdcc85b35001184ec38" />
   <project path="packages/apps/ExactCalculator" name="LeafOS-Project/android_packages_apps_ExactCalculator" groups="lineage" />
   <project path="packages/apps/Glimpse" name="LeafOS-Project/android_packages_apps_Glimpse" groups="lineage" />
   <project path="packages/apps/LeafBackgrounds" name="LeafOS-Project/android_packages_apps_LeafBackgrounds" />
@@ -47,7 +47,7 @@
   <project path="packages/apps/SetupWizard" name="LeafOS-Project/android_packages_apps_SetupWizard" groups="lineage" />
   <project path="packages/apps/SimpleDeviceConfig" name="LeafOS-Project/android_packages_apps_SimpleDeviceConfig" groups="lineage" />
   <project path="packages/apps/Updater" name="LeafOS-Project/android_packages_apps_Updater" groups="lineage" />
-  <project path="packages/overlays/Leaf" name="LeafOS-Project/android_packages_overlays_Leaf" />
+  <project path="packages/overlays/Leaf" name="LeafOS-experimental/android_packages_overlays_Leaf" />
   <project path="packages/resources/devicesettings" name="LeafOS-Project/android_packages_resources_devicesettings" groups="lineage" />
   <project path="prebuilts/extract-tools" name="LeafOS-Project/android_prebuilts_extract-tools" groups="lineage" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.7" />
@@ -56,18 +56,18 @@
   <project path="tools/extract-utils" name="LeafOS-Project/android_tools_extract-utils" groups="lineage" />
   <project path="vendor/crowdin" name="LeafOS-Project/android_vendor_crowdin" groups="lineage" />
   <project path="vendor/gapps" name="LeafOS-Blobs/proprietary_vendor_gapps" />
-  <project path="vendor/leaf" name="LeafOS-Project/android_vendor_leaf">
+  <project path="vendor/leaf" name="LeafOS-experimental/android_vendor_leaf" revision="leaf-4.0" >
     <linkfile src="config" dest="vendor/lineage/config" />
   </project>
-  <project path="vendor/leaf-apps/ThemePickerLeaf" name="LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf" />
+  <project path="vendor/leaf-apps/ThemePickerLeaf" name="LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf" revision="c9854c7fbb4103f0f1208174f659e2dcc113d6a7" />
   <project path="vendor/lineage/compat" name="LeafOS-Project/android_vendor_lineage_compat" />
   <project path="vendor/microg" name="LeafOS-Project/android_vendor_microg" />
 
   <!-- LeafOS forked repos -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="LeafOS-experimental/android_bootable_recovery" groups="pdk" revision="leaf-4.0" />
   <remove-project name="platform/build" />
-  <project path="build/make" name="LeafOS-Project/android_build" groups="pdk">
+  <project path="build/make" name="LeafOS-experimental/android_build" groups="pdk" revision="leaf-4.0" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -76,34 +76,34 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="LeafOS-Project/android_build_soong" groups="pdk,tradefed">
+  <project path="build/soong" name="LeafOS-experimental/android_build_soong" groups="pdk,tradefed" revision="leaf-4.0">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="platform/external/dtc" />
-  <project path="external/dtc" name="LeafOS-Project/android_external_dtc" groups="pdk" />
+  <project path="external/dtc" name="LeafOS-Project/android_external_dtc" groups="pdk" revision="2a11763c913fe41a386b707647c9bbd2062a121f" />
   <remove-project name="platform/external/gptfdisk" />
-  <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" />
+  <project path="external/gptfdisk" name="LeafOS-Project/android_external_gptfdisk" groups="pdk,lineage" revision="82a4e6b516f2db0d951a607854543c77c258558d" />
   <remove-project name="platform/external/setupcompat" />
-  <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" />
+  <project path="external/setupcompat" name="LeafOS-Project/android_external_setupcompat" groups="pdk" revision="de6b226aeb6d5f7531eb6563ad35c0c301bc9a4f" />
   <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="LeafOS-Project/android_external_tinycompress" groups="pdk" />
+  <project path="external/tinycompress" name="LeafOS-Project/android_external_tinycompress" groups="pdk" revision="eb7550f3d30b44ad9cbfc405631b2d652e1c31c3" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="LeafOS-Project/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LeafOS-Project/android_external_wpa_supplicant_8" groups="pdk" revision="a16f524d9436d6215e0977e66e32ecc7936acec7" />
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="LeafOS-Project/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="LeafOS-Project/android_frameworks_av" groups="pdk" revision="7a1c9bbea09ade8c4dcc30d7a4cca5e06faafec2" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="LeafOS-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="LeafOS-experimental/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="leaf-4.0" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="LeafOS-Project/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="LeafOS-Project/android_frameworks_native" groups="pdk" revision="02c2e745dc564a180aca2222916fa32d25cc8b6d" />
   <remove-project name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/colorpicker" name="LeafOS-Project/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs,lineage" />
+  <project path="frameworks/opt/colorpicker" name="LeafOS-Project/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs,lineage" revision="c3cf1b69b54d4e160d1ee9d42d5a9ee2e12b3eed" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/timezonepicker" name="LeafOS-Project/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs,lineage" />
+  <project path="frameworks/opt/timezonepicker" name="LeafOS-Project/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs,lineage" revision="9d3094ff822827f15a8030fd300e9db42ba72451" />
   <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="LeafOS-Project/android_hardware_interfaces" groups="pdk,sysui-studio" />
+  <project path="hardware/interfaces" name="LeafOS-Project/android_hardware_interfaces" groups="pdk,sysui-studio" revision="d861a8b0390935144f3e64679c68856584443a8c" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="LeafOS-Project/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="LeafOS-Project/android_hardware_libhardware" groups="pdk" revision="cdd684a9ced55dcf36ab88e4b66d651da44ca89a" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LeafOS-Project/android_packages_apps_Contacts" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -111,33 +111,33 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Dialer" name="LeafOS-Project/android_packages_apps_Dialer" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project path="packages/apps/DocumentsUI" name="LeafOS-Project/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="LeafOS-Project/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" revision="0ecdb45f9a6284e409a498c3a7272a8b90223858" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="LeafOS-Project/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" />
+  <project path="packages/apps/Launcher3" name="LeafOS-experimental/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" revision="leaf-4.0" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="LeafOS-Project/android_packages_apps_Messaging" groups="pdk-fs,lineage" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="LeafOS-Project/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="LeafOS-experimental/android_packages_apps_Settings" groups="pdk-fs" revision="leaf-4.0" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project path="packages/apps/SettingsIntelligence" name="LeafOS-Project/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
+  <project path="packages/apps/SettingsIntelligence" name="LeafOS-Project/android_packages_apps_SettingsIntelligence" groups="pdk-fs" revision="4e123cace1effce0c790c26dc087ecf42b2f254b" />
   <remove-project name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Stk" name="LeafOS-Project/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Stk" name="LeafOS-Project/android_packages_apps_Stk" groups="apps_stk,pdk-fs" revision="b20b28dfc78fe596e62e3a263881e17953134168" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="LeafOS-Project/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="LeafOS-Project/android_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" />
+  <project path="packages/inputmethods/LatinIME" name="LeafOS-Project/android_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" revision="b8e76acfef9b342d4ca4c2c0f4403f3364891eec" />
   <remove-project name="platform/packages/modules/adb" />
-  <project path="packages/modules/adb" name="LeafOS-Project/android_packages_modules_adb" groups="pdk" />
+  <project path="packages/modules/adb" name="LeafOS-Project/android_packages_modules_adb" groups="pdk" revision="f798aec6de67b4f2b7cc5c3ca9239a54f77d1ea7" />
   <remove-project name="platform/packages/modules/Bluetooth" />
-  <project path="packages/modules/Bluetooth" name="LeafOS-Project/android_packages_modules_Bluetooth" groups="pdk" />
+  <project path="packages/modules/Bluetooth" name="LeafOS-Project/android_packages_modules_Bluetooth" groups="pdk" revision="10f139ce2a6299db9c837f513005974ad61fd669" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" />
+  <project path="packages/modules/Connectivity" name="LeafOS-Project/android_packages_modules_Connectivity" groups="pdk" revision="26df372abcd7084dd877990dce0535665c8b6d08" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" />
+  <project path="system/core" name="LeafOS-Project/android_system_core" groups="pdk" revision="7abb5e8d065eeb07d7a4340aac185aeb00a6caba" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="LeafOS-Project/android_system_sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="LeafOS-experimental/android_system_sepolicy" groups="pdk" revision="leaf-4.0" />
   <remove-project name="platform/system/tools/mkbootimg" />
-  <project path="system/tools/mkbootimg" name="LeafOS-Project/android_system_tools_mkbootimg" groups="pdk" />
+  <project path="system/tools/mkbootimg" name="LeafOS-Project/android_system_tools_mkbootimg" groups="pdk" revision="729ef0ae7d82d88a6cf11ae62320a173d76be155" />
 
   <!-- LeafOS removed repos -->
   <remove-project name="platform/external/chromium-webview" />
@@ -226,7 +226,7 @@
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LeafOS-Project/android_device_qcom_sepolicy" groups="lineage,qcom,qssi" />
-  <project path="device/qcom/sepolicy-legacy-um" name="LeafOS-Project/android_device_qcom_sepolicy" groups="lineage,qcom,sdm660" revision="leaf-3.2-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="LeafOS-experimental/android_device_qcom_sepolicy" groups="lineage,qcom,sdm660" revision="leaf-3.2-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="LeafOS-Project/android_device_qcom_sepolicy_vndr" groups="lineage,qcom,lahaina" revision="leaf-3.2-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="LeafOS-Project/android_device_qcom_sepolicy_vndr" groups="lineage,qcom,waipio-vendor" revision="leaf-3.2-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="LeafOS-Project/android_device_qcom_sepolicy_vndr" groups="lineage,qcom,kailua-vendor" revision="leaf-3.2-caf-sm8550" />
@@ -237,7 +237,7 @@
   <project path="external/json-c" name="LeafOS-Project/android_external_json-c" groups="lineage,qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" name="LeafOS-Project/android_hardware_qcom_bootctrl" groups="lineage,qcom,kailua-vendor" revision="leaf-3.2-caf" />
   <project path="hardware/qcom-caf/bt" name="LeafOS-Project/android_hardware_qcom_bt" groups="lineage,qcom,legacy-qcom" revision="leaf-3.2-caf" />
-  <project path="hardware/qcom-caf/common" name="LeafOS-Project/android_hardware_qcom-caf_common" groups="lineage,qcom" >
+  <project path="hardware/qcom-caf/common" name="LeafOS-experimental/android_hardware_qcom-caf_common" groups="lineage,qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -310,7 +310,7 @@
   <project path="vendor/codeaurora/telephony" name="LeafOS-Project/android_vendor_codeaurora_telephony" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LeafOS-Project/android_vendor_qcom_opensource_audio-hal_st-hal" groups="lineage,qcom,lahaina" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LeafOS-Project/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="lineage,qcom,kailua-audio" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LeafOS-Project/android_vendor_qcom_opensource_display-commonsys-intf" groups="lineage,qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LeafOS-experimental/android_vendor_qcom_opensource_display-commonsys-intf" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" name="LeafOS-Project/android_vendor_qcom_opensource_display-commonsys" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="LeafOS-Project/android_vendor_qcom_opensource_fm-commonsys" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/wfd" name="LeafOS-Project/android_vendor_qcom_opensource_wfd-commonsys" groups="lineage,qcom,kailua-video" />
