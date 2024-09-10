@@ -64,8 +64,10 @@
   <project path="vendor/microg" name="LeafOS-Project/android_vendor_microg" />
 
   <!-- LeafOS forked repos -->
+  <remove-project name="platform/bootable/deprecated-ota" />
+  <project path="bootable/deprecated-ota" name="LeafOS-experimental/android_bootable_deprecated-ota" groups="pdk-cw" revision="leaf-4.0" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LeafOS-experimental/android_bootable_recovery" groups="pdk" revision="leaf-4.0" />
+  <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" revision="leaf-4.0" />
   <remove-project name="platform/build" />
   <project path="build/make" name="LeafOS-experimental/android_build" groups="pdk" revision="leaf-4.0" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
