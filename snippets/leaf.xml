@@ -64,6 +64,8 @@
   <project path="vendor/microg" name="LeafOS-Project/android_vendor_microg" />
 
   <!-- LeafOS forked repos -->
+  <remove-project  name="platform/bionic" />
+  <project path="bionic" name="LeafOS-experimental/android_bionic" groups="pdk" revision="leaf-4.0" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <project path="bootable/deprecated-ota" name="LeafOS-experimental/android_bootable_deprecated-ota" groups="pdk-cw" revision="leaf-4.0" />
   <remove-project name="platform/bootable/recovery" />
