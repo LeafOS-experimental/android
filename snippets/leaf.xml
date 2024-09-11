@@ -310,7 +310,7 @@
   <project path="hardware/qcom-caf/sm8550/media" name="LeafOS-Project/android_hardware_qcom_media" groups="lineage,qcom,kailua-vendor" revision="leaf-3.2-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" name="LeafOS-Project/android_hardware_qcom_thermal" groups="lineage,qcom,kailua-vendor" />
   <project path="hardware/qcom-caf/vr" name="LeafOS-Project/android_hardware_qcom_vr" groups="lineage,qcom,legacy-qcom" />
-  <project path="hardware/qcom-caf/wlan" name="LeafOS-Project/android_hardware_qcom_wlan" groups="lineage,qcom,kailua-vendor" revision="leaf-3.2-caf" />
+  <project path="hardware/qcom-caf/wlan" name="LeafOS-experimental/android_hardware_qcom_wlan" groups="lineage,qcom,kailua-vendor" revision="leaf-4.0-caf" />
   <project path="vendor/codeaurora/telephony" name="LeafOS-Project/android_vendor_codeaurora_telephony" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LeafOS-Project/android_vendor_qcom_opensource_audio-hal_st-hal" groups="lineage,qcom,lahaina" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LeafOS-Project/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="lineage,qcom,kailua-audio" />
@@ -320,7 +320,7 @@
   <project path="vendor/qcom/opensource/commonsys/wfd" name="LeafOS-Project/android_vendor_qcom_opensource_wfd-commonsys" groups="lineage,qcom,kailua-video" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="LeafOS-Project/android_vendor_qcom_opensource_core-utils-sys" groups="lineage,qcom,qssi" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="LeafOS-Project/android_vendor_qcom_opensource_core-utils-vendor" groups="lineage,qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LeafOS-Project/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="lineage,qcom,lahaina" revision="leaf-3.2-legacy-um" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LeafOS-experimental/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="lineage,qcom,lahaina" revision="leaf-4.0-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" name="LeafOS-Project/android_vendor_qcom_opensource_dataservices" groups="lineage,qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/display" name="LeafOS-Project/android_vendor_qcom_opensource_display" groups="lineage,qcom" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LeafOS-Project/android_vendor_qcom_opensource_healthd-ext" groups="lineage,qcom,kailua-vendor" />
