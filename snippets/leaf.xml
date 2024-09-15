@@ -47,7 +47,7 @@
   <project path="packages/apps/SetupWizard" name="LeafOS-Project/android_packages_apps_SetupWizard" groups="lineage" />
   <project path="packages/apps/SimpleDeviceConfig" name="LeafOS-Project/android_packages_apps_SimpleDeviceConfig" groups="lineage" />
   <project path="packages/apps/Updater" name="LeafOS-Project/android_packages_apps_Updater" groups="lineage" />
-  <project path="packages/overlays/Leaf" name="LeafOS-experimental/android_packages_overlays_Leaf" />
+  <project path="packages/overlays/Leaf" name="LeafOS-experimental/android_packages_overlays_Leaf" revision="leaf-4.0" />
   <project path="packages/resources/devicesettings" name="LeafOS-Project/android_packages_resources_devicesettings" groups="lineage" />
   <project path="prebuilts/extract-tools" name="LeafOS-Project/android_prebuilts_extract-tools" groups="lineage" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.7" />
