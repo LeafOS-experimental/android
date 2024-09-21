@@ -127,7 +127,7 @@
   <remove-project name="platform/packages/apps/Stk" />
   <project path="packages/apps/Stk" name="LeafOS-Project/android_packages_apps_Stk" groups="apps_stk,pdk-fs" revision="leaf-4.0" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="LeafOS-Project/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" />
+  <project path="packages/apps/WallpaperPicker2" name="LeafOS-Project/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" revision="leaf-4.0" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="LeafOS-Project/android_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" revision="leaf-4.0" />
   <remove-project name="platform/packages/modules/adb" />
