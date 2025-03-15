@@ -11,7 +11,7 @@
           revision="refs/heads/leaf-4.2"/>
 
   <!-- LeafOS additions -->
-  <project path="android" name="LeafOS-Staging/android" remote="leaf-staging" />
+  <project path="android" name="LeafOS-experimental/android" remote="leaf-staging" />
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" remote="leaf" />
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" remote="leaf" revision="refs/heads/master" />
   <project path="packages/apps/LeafBackgrounds" name="LeafOS-Project/android_packages_apps_LeafBackgrounds" remote="leaf" />
