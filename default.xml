@@ -1067,6 +1067,7 @@
   <include name="snippets/leaf.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/lineage-caf.xml" />
+  <include name="snippets/lineage-compat.xml" />
   <include name="snippets/graphene.xml" />
   <include name="snippets/lineage-kotlin.xml" />
 </manifest>
