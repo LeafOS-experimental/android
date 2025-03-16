@@ -19,6 +19,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-15.0.0_r0.49" />
   <project path="vendor/leaf" name="LeafOS-experimental/android_vendor_leaf" remote="leaf-staging">
     <linkfile src="config" dest="vendor/lineage/config" />
+    <linkfile src="build/core/mkdir.mk" dest="vendor/lineage/build/core/mkdir.mk" />
   </project>
   <project path="vendor/leaf-apps/ThemePickerLeaf" name="LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf" remote="leaf" />
 
