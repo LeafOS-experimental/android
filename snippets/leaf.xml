@@ -25,6 +25,8 @@
   <project path="vendor/leaf-apps/ThemePickerLeaf" name="LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf" remote="leaf" />
 
   <!-- LeafOS forked repos -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="LeafOS-experimental/android_bionic" remote="leaf-staging" />
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="LeafOS-Staging/android_bootable_recovery" groups="pdk,lineage" remote="leaf-staging" />
   <remove-project name="platform/build" />
