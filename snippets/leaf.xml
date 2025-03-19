@@ -51,6 +51,8 @@
   <project path="external/mksh" name="LeafOS-Project/android_external_mksh" groups="pdk,lineage" remote="leaf" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="LeafOS-Staging/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="leaf-staging" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="LeafOS-experimental/android_frameworks_native" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="leaf-staging" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="LeafOS-Staging/android_system_core" groups="pdk" remote="leaf-staging" />
   <remove-project name="platform/system/sepolicy" />
